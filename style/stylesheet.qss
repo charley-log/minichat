@@ -1,0 +1,13 @@
+
+/* 输入框报错时：变红底+红边框 */
+QLineEdit[error="true"] {
+    border: 1px solid #d93025;
+    background-color: #fff4f2;
+}
+
+/* 错误提示文字 */
+QLabel#etip_label {
+    color: #d93025;
+    font-size: 12px;
+    font-weight: bold;
+}
